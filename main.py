@@ -2,7 +2,7 @@ import uvicorn
 from fastapi import FastAPI
 
 from src.config.config import apply_config, BaseFastAPIConfig
-from src.handler.route import routes
+from src.handler.router import routes
 
 base_responses = {
     400: {"description": "Invalid Input Arguments"},

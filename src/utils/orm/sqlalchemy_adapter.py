@@ -3,7 +3,7 @@ from uuid import UUID
 
 from sqlalchemy import Executable
 
-from src.model.entities import BaseEntity
+from src.model.entity import BaseEntity
 from src.utils.exceptions import InvalidEntityTypeException
 from src.utils.orm.session_manager import SessionManager
 

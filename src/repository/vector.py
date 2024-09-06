@@ -1,5 +1,5 @@
 from sqlalchemy import select
-from src.model.entities import VectorEntity
+from src.model.entity import VectorEntity
 from src.model.vector import VectorModel, GetVectorModel
 from src.utils.orm.sqlalchemy_adapter import SqlAlchemyAdapter
 
