@@ -4,7 +4,6 @@ pymilvus==2.3.5
 numpy==1.26.4
 pydantic==2.8.0
 fastapi==0.111.0
-faiss-cpu==1.8.0.post1
 transformers
 psycopg
 pytest
