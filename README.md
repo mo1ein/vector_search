@@ -31,7 +31,7 @@ pip install -r requirements.txt --default-timeout=1000
 ```
 
 ## Run
-Set your database configs in `.env`file. create a database with name `vector_db` in your connected postgres then run [migrations](migrations/init.up.sql).
+Set your database configs in `.env` file. create a database with name `vector_db` in your connected postgres then run [migrations](migrations/init.up.sql).
 I recommend to use [`pycharm extension`](https://www.jetbrains.com/help/pycharm/relational-databases.html) or [`datagrip`](https://www.jetbrains.com/datagrip/).
 ```bash
 python main.py
